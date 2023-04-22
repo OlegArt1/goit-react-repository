@@ -65,7 +65,7 @@ export class Statistics extends Component
     };
     render()
     {
-        const { good, neutral, bad, total, positivePercentage, text } = this.state;
+        const { good, neutral, bad, total, positivePercentage } = this.state;
 
         return (
             <div>
